@@ -7,7 +7,7 @@ public class Star15 {
         System.out.print("Masukkan niali n = ");
         int n = sc.nextInt();
 
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i <= n; i += 2) {
             System.out.print("*");
         }
         System.out.println();
