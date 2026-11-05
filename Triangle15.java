@@ -7,15 +7,15 @@ public class Triangle15 {
         System.out.print("Masukkan nilai n = ");
         int n = sc.nextInt();
 
-        int i = 1; 
-        while (i <= n) {
+        int i = n; 
+        while (i >= 1) {
             System.out.print("[i=" + i + "] ");
-            int j = 0;
-            while (j < i) {
+            int j = 1;
+            while (j <= i) {
                 System.out.print("*");
                 j++;
             }
-            i++;
+            i--;
         }
         sc.close();
     }
